@@ -9,7 +9,7 @@ const { chromium } = require('playwright');
 
   try {
     console.log('Accediendo a progrentis.com...');
-    await page.goto('https://progrentis.com', { waitUntil: 'networkidle' });
+    await page.goto('https://www.progrentis.com/', { waitUntil: 'networkidle' });
 
     console.log('Esperando formulario de login...');
     await page.waitForSelector('input[type="text"], input[name*="user"], input[name*="username"]', { timeout: 5000 });
