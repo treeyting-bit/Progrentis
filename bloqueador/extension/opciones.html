@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Bloqueador – Opciones</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 560px; margin: 32px auto; padding: 0 16px; }
+    input { padding: .5rem; width: 70%; }
+    button { padding: .5rem 1rem; }
+    li { margin: .3rem 0; }
+  </style>
+</head>
+<body>
+  <h1>Bloquear más sitios</h1>
+  <p>Agrega un dominio (por ejemplo <code>ejemplo.com</code>). Se bloquearán también sus subdominios.</p>
+  <form id="form">
+    <input id="dominio" placeholder="ejemplo.com" required>
+    <button>Agregar</button>
+  </form>
+  <h2>Tus dominios</h2>
+  <ul id="lista"></ul>
+  <script src="opciones.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Bloqueador de contenido adulto",
+  "version": "1.0.0",
+  "description": "Bloquea sitios pornográficos y fuerza la Búsqueda Segura en Google, Bing, DuckDuckGo y YouTube.",
+  "permissions": ["declarativeNetRequest", "storage", "webNavigation", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "options_page": "opciones.html",
+  "incognito": "spanning"
+}
